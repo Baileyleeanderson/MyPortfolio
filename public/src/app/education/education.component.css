@@ -1,0 +1,86 @@
+#wrapper{
+    /* background-image: url('./../assets/giphy.gif'); */
+    width:100%;
+    height: auto;
+    background-size: inherit;
+    overflow: inherit;
+    
+}
+#inner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+    overflow: inherit;
+    margin-top: 11px;
+}
+.neo{
+    vertical-align: middle;
+    border-style: none;
+    width: 692px;
+    opacity: 0.8;
+    margin-left: 261px;
+    margin-top: 52px;
+}
+.list{
+    width: 460px;
+    margin-left: 21px;
+}
+
+@media screen and (min-width:1025px) and (max-width:1510px) {
+    .neo{
+        vertical-align: middle;
+        border-style: none;
+        width: 648px;
+        opacity: 0.8;
+        margin-left: 50px;
+        margin-top: 58px;
+    }
+    .list{
+        width: 460px;
+        margin-left: 21px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .neo{
+        vertical-align: middle;
+        border-style: none;
+        width: 673px;
+        opacity: 0.8;
+        margin-left: 116px;
+    }
+    .list{
+        width: 400px;
+        margin-left: 59px;
+    }
+}
+
+
+@media screen and (min-width:416px) and (max-width:768px) {
+    .neo{
+        vertical-align: middle;
+        border-style: none;
+        width: 594px;
+        opacity: 0.8;
+        margin-left: 3px;
+    }
+    .list{
+        width: 400px;
+        margin-left: -72px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .neo{
+        vertical-align: middle;
+        border-style: none;
+        width: 368px;
+        opacity: 0.8;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .list{
+        width: 300px;
+        margin-left: -72px;
+    }
+}

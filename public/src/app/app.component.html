@@ -1,0 +1,35 @@
+<div id="wrapper">
+    <nav id="navhead" class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+        <div id="homeblock">
+            <img  id="homepic" (mousedown)="home()" class="navbar-brand" src="assets/images/target.gif">
+        </div>
+            <img class="gifs" (mousedown)="projects()" src="{{projectsGif}}">
+            <img class="gifs" (mousedown)="education()" src="{{educationGif}}">
+            
+            <img class="gifs" (mousedown)="resume()" src="{{resumeGif}}">
+            <img class="gifs" (mousedown)="aboutme()" src="{{aboutmeGif}}">
+            <!-- <li class="navbar-brand" href="">Contact</li> -->
+        <div id="contact">
+            <a href="https://www.linkedin.com/in/bailey-anderson-2a2363157/"><img class="skills" src="assets/images/linked.png"></a>
+            <a href="https://github.com/Baileyleeanderson"><img class="skills" src="assets/images/github.png"></a>
+            <a href="https://www.facebook.com/bailey.anderson.52"><img class="skills" src="assets/images/facebook.png"></a>
+        </div>
+        <h2 (click)="home()" id="hacked">hackedbyMrAnderson</h2>
+    </nav>
+
+    <div class="components">
+    <router-outlet></router-outlet>
+    </div>
+
+    <div id="animations">
+        <div class="tracking">
+            <img *ngIf="showtrackpic" id="trackpic" src="{{trackingpics}}">
+        </div>
+        <div id="cartoons">
+            <img class="mra_gifs"src="{{gifs}}">
+            <div *ngIf="matrix" id="matrix"></div>
+        </div>
+    </div>      
+    <img *ngIf="maincomp" class="maincomp" src="assets/images/compmain.png">
+    
+</div>

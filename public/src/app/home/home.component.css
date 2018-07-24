@@ -1,0 +1,289 @@
+#wrapper{
+    width:100%;
+    height: auto;
+    background-size: inherit;
+    overflow: inherit;      
+}
+.body{
+    opacity: 0.23;
+    width: 409px;
+    display: block;
+    margin-left: 58px;
+}
+.stats{
+    opacity: 0.6;
+    width: 300px;
+    width: 406px;
+    /* position: absolute; */
+    display: inline-block;
+    position: relative;
+    bottom: 508px;
+    left: -110px;
+}
+.iphonebox{
+    display: none;
+}
+.iphonegif{
+    display: none;
+}
+.bla{
+    width: 794px;
+    margin-left: 151px;
+    opacity: 0.6;
+}
+#inner{
+    overflow: inherit;
+    display: inline-block;
+    width: 1500px;
+}
+.neo{
+    width: 831px;
+    margin-top: 10px;
+    margin-left: -34px;
+    margin-right: 372px;
+}
+.sent{
+    width: 475px;
+    display: inline-block;
+    opacity: 0.0;
+
+}
+
+
+        /* mid to large */
+
+@media screen and (min-width:1025px) and (max-width:1510px) {
+    #wrapper{
+        /* background-image: url('./../assets/giphy.gif'); */
+        width:100%;
+        height: auto;
+        background-size: inherit;
+        overflow: inherit;    
+    }
+    .body{
+        opacity: 0.23;
+        width: 409px;
+        display: block;
+        margin-left: -21px;
+    }
+    .stats{
+        opacity: 0.6;
+        width: 300px;
+        width: 406px;
+        /* position: absolute; */
+        display: inline-block;
+        position: relative;
+        bottom: 508px;
+        left: 112px;
+    }
+    .iphonebox{
+        display: none;
+    }
+    .iphonegif{
+        display: none;
+    }
+    .bla{
+        width: 623px;
+        margin-left: 70px;
+        opacity: 0.6;
+    }
+    #inner{
+        overflow: inherit;
+        width: 800px;
+        margin-left: -24px;
+    }
+    .neo{
+        width: 691px;
+        margin-left: 68px;
+        margin-top: 10px;
+    }
+   
+    .sent{
+        width: 402px;
+        position: absolute;
+        top: 264px;
+        opacity: 0.0;
+    }
+}
+
+        /* ipad pro */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #wrapper{
+        /* background-image: url('./../assets/giphy.gif'); */
+        width:100%;
+        height: auto;
+        background-size: inherit;
+        overflow: inherit;    
+    }
+    .body{
+        opacity: 0.23;
+        width: 409px;
+        display: block;
+        margin-left: 51px;
+    }
+    .stats{
+        opacity: 0.6;
+        width: 300px;
+        width: 406px;
+        /* position: absolute; */
+        display: inline-block;
+        position: relative;
+        bottom: 508px;
+        left: 255px;
+    }
+    .iphonebox{
+        display: none;
+    }
+    .iphonegif{
+        display: none;
+    }
+    #inner{
+        overflow: inherit;
+        width: 800px;
+        margin-left: -24px;
+    }
+    .bla{
+        width: 703px;
+        margin-left: 151px;
+        opacity: 0.6;
+    }
+    .neo{
+        width: 752px;
+        margin-left: 163px;
+        margin-top: -3px;
+    }
+    .sent{
+        width: 402px;
+        position: absolute;
+        top: 264px;
+        opacity: 0.0;
+    }
+}
+
+@media screen and (min-width:416px) and (max-width:768px) {
+    .bla{
+        width: 493px;
+        margin-left: 151px;
+        opacity: 0.6;
+    }
+    .body{
+        opacity: 0.23;
+        width: 409px;
+        display: block;
+        margin-left: -21px;
+        display: none;
+    }
+    .stats{
+        opacity: 0.6;
+        width: 300px;
+        width: 406px;
+        /* position: absolute; */
+        display: inline-block;
+        position: relative;
+        bottom: 508px;
+        left: 112px;
+        display: none;
+    }
+    .iphonebox{
+        display: inline-block;
+        width: 561px;
+        z-index: 3;
+        opacity: 0.6;
+    }
+    .iphonegif{
+        display: block;
+        position: absolute;
+        width: 370px;
+        top: 750px;
+        z-index: 2;
+    }
+    .neo{
+        vertical-align: middle;
+        border-style: none;
+        width: 685px;
+        opacity: 0.8;
+        margin-left: -1px;
+    }
+    .sent{
+        width: 362px;
+        position: absolute;
+        top: 194px;
+        opacity: 0.0;
+    }
+    #inner{
+        overflow: inherit;
+        display: inline-block;
+        width: 768px;
+        margin-left: -85px;
+    }
+}
+
+        /* small mobile */
+
+@media screen and (max-width:415px) {
+    #wrapper{
+        /* background-image: url('./../assets/giphy.gif'); */
+        width:415px;
+        height: auto;
+        background-size: inherit;
+        overflow: inherit;     
+    }
+    .body{
+        opacity: 0.23;
+        width: 409px;
+        display: block;
+        margin-left: -21px;
+        display: none;
+    }
+    .stats{
+        opacity: 0.6;
+        width: 300px;
+        width: 406px;
+        /* position: absolute; */
+        display: inline-block;
+        position: relative;
+        bottom: 508px;
+        left: 112px;
+        display: none;
+    }
+    .iphonebox{
+        display: inline-block;
+        width: 340px;
+        z-index: 3;
+        opacity: 0.6;
+    }
+    .iphonegif{
+        display: inline-block;
+        position: absolute;
+        width: 219px;
+        top: 715px;
+        right: 109px;
+        z-index: 2;
+    }
+    .bla{
+      width: 390px;
+      margin-left: -23px;
+      opacity: 0.6;
+    }
+    #inner{
+        overflow: inherit;
+       
+    }
+    .neo{
+        width: 412px;
+        display: block;
+        margin-left: -11px;
+        text-align: center;
+    }
+    .sent{
+        position: absolute;
+        top: 320px;
+        left: 58px;
+        width: 325px;
+        opacity: 0.99;
+        opacity: 0.0;
+    } 
+
+  
+}

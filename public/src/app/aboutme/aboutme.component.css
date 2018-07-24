@@ -1,0 +1,269 @@
+#wrapper{
+    width:100%;
+    height: auto;
+    background-size: inherit;
+    overflow: inherit;
+    
+}
+#inner{
+    /* background-image: url('assets/tetris.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    opacity: .9;
+    margin-top: 11px;
+    width: 626px;
+    margin-left: 17px;
+    border-radius: 187px;
+}
+.neo{
+    width: 648px;
+    margin-left: 287px;
+    margin-top: 56px;
+    display: inline-block;
+    opacity: 0.8;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+#contact{
+    display: inline-block;
+    margin-left: 358px;
+    margin-top: 15px;
+    width: 514px;
+}
+.skills{
+    width: 114px;
+    margin-left: 57px;
+}
+#phone{
+    width: 715px;
+    display: inline-block;
+    margin-left: 276px;
+}
+#info{
+    width: 715px;
+}
+.bio{
+    width: 680px;
+    margin-left: 20px;
+}
+h3{
+    color: rgb(68, 32, 91);
+    text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
+}
+h4{
+    color: rgb(68, 32, 91);
+    text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
+}
+@media screen and (min-width:1025px) and (max-width:1510px) {
+    .neo{
+        width: 578px;
+        margin-left: 155px;
+        margin-top: 73px;
+        display: inline-block;
+        opacity: 0.8;
+        border: black solid 5px;
+        border-radius: 10px;
+    }
+    #inner{
+        /* background-image: url('assets/tetris.jpg');
+        background-repeat: no-repeat;
+        background-size: contain; */
+        opacity: .9;
+        margin-top: 11px;
+        width: 449px;
+        margin-left: 17px;
+        border-radius: 187px;
+    }
+    #contact{
+        display: inline-block;
+        margin-left: 213px;
+        margin-top: 15px;
+        width: 514px;
+    }
+    .skills{
+        width: 86px;
+        margin-left: 57px;
+    }
+    #phone{
+        width: 715px;
+        display: inline-block;
+        margin-left: 116px;
+    }
+    #info{
+        width: 594px;
+    }
+    h3{
+        color: rgb(68, 32, 91);
+        text-shadow:
+            -1px -1px 0 rgb(255, 255, 255),
+            1px -1px 0 rgb(255, 255, 255),
+            -1px 1px 0 rgb(255, 255, 255),
+            1px 1px 0 rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    h4{
+        color: rgb(68, 32, 91);
+        text-shadow:
+            -1px -1px 0 rgb(255, 255, 255),
+            1px -1px 0 rgb(255, 255, 255),
+            -1px 1px 0 rgb(255, 255, 255),
+            1px 1px 0 rgb(255, 255, 255);
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #inner{
+        /* background-image: url('assets/tetris.jpg');
+        background-repeat: no-repeat;
+        background-size: contain; */
+        opacity: .9;
+        margin-top: 11px;
+        width: 422px;
+        margin-left: 17px;
+        border-radius: 187px;
+    }
+    .neo{
+        width: 583px;
+        margin-left: 154px;
+        margin-top: 66px;
+        display: inline-block;
+        opacity: 0.8;
+        border: black solid 5px;
+        border-radius: 10px;
+    } 
+    #contact{
+        display: inline-block;
+        margin-left: 213px;
+        margin-top: 15px;
+        width: 514px;
+    }
+    .skills{
+        width: 86px;
+        margin-left: 57px;
+    }
+    #phone{
+        width: 715px;
+        display: inline-block;
+        margin-left: 116px;
+    }
+    #info{
+        width: 594px;
+    }
+}
+@media screen and (min-width:416px) and (max-width:768px) {
+    #inner{
+        /* background-image: url('assets/tetris.jpg');
+        background-repeat: no-repeat;
+        background-size: contain; */
+        opacity: .9;
+        margin-top: 11px;
+        width: 228px;
+        margin-left: 17px;
+        border-radius: 187px;
+    }
+    .neo{
+        width: 560px;
+        margin-left: -4px;
+        margin-top: 66px;
+        display: inline-block;
+        opacity: 0.8;
+        border: black solid 5px;
+        border-radius: 10px;
+    }
+   
+    #contact{
+        display: inline-block;
+        margin-left: 6px;
+        margin-top: 10px;
+        width: 514px;
+    }
+    .skills{
+        width: 86px;
+        margin-left: 57px;
+    }
+    #phone{
+        width: 715px;
+        display: inline-block;
+        margin-left: -65px;
+    }
+    #info{
+        width: 544px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    #wrapper{
+        width:100%;
+        height: auto;
+        background-size: inherit;
+        overflow: inherit;
+        
+    }
+    #inner{
+        /* background-image: url('assets/tetris.jpg');
+        background-repeat: no-repeat;
+        background-size: contain; */
+        opacity: .9;
+        margin-top: 11px;
+        width: 92%;
+    }
+    .neo{
+        width: 364px;
+        margin-left: -4px;
+        margin-top: 25px;
+        display: inline-block;
+        opacity: 0.8;
+        border: black solid 3px;
+    }
+   
+    #contact{
+        display: inline-block;
+        margin-left: -35px;
+        margin-top: 10px;
+        width: 342px;
+    }
+    .skills{
+        width: 57px;
+        margin-left: 15px;
+    }
+    #phone{
+        width: 373px;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    #info{
+        width: 373px;
+    }
+    .bio{
+        width: 416px;
+        margin-left: -19px;
+    }
+    h3{
+        color: rgb(0, 255, 225);
+        font-size: 24px;
+        text-shadow:
+		-1px -1px 0 rgb(0, 0, 0),
+		1px -1px 0 rgb(0, 0, 0),
+		-1px 1px 0 rgb(0, 0, 0),
+		1px 1px 0 rgb(0, 0, 0);
+    }
+    h4{
+        color: rgb(0, 255, 225);
+        font-size: 15px;
+        text-shadow:
+		-1px -1px 0 rgb(0, 0, 0),
+		1px -1px 0 rgb(0, 0, 0),
+		-1px 1px 0 rgb(0, 0, 0),
+		1px 1px 0 rgb(0, 0, 0);
+    }
+}

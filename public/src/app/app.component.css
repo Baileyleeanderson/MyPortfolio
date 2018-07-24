@@ -1,0 +1,756 @@
+
+#wrapper{
+    background-image: url('assets/bgpurp.jpg');
+    background-attachment: fixed;
+    height:100%;  
+    width: 1921px;
+    margin-right:auto;
+}
+#navhead{
+    background-attachment: fixed;
+    width: 1920px;
+    border: white 1px solid;
+}
+#headerdiv{
+    display:block;
+    text-align:center;
+    background-color: white;
+}
+#header{
+    text-align:center;
+    width: 405px;
+    margin-left: 1150px;
+}
+#homeblock{
+    width: 203px;
+    height: 168px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 100px;
+}
+#homepic{
+    margin-top: 10px;
+    width: 207px;   
+}
+
+#hacked{
+    color: rgb(255, 255, 255);
+    opacity: 0.28;
+    margin-top: 7.5%;
+    position: absolute;
+    right: 326px;
+    bottom: 14px;
+    font-size: 21px;
+    display: none;
+}
+#contact{
+    position: absolute;
+    right: 312px;
+}
+.skills{
+    width: 68px;
+    margin-right: 11px;
+}
+.tv{
+    border: black 2px solid;
+    width: 206px;
+    height: 705px;
+    margin-left: 25px;
+    display: inline-block;
+    background-attachment: fixed;
+    background-image: url('assets/bgpurp.jpg');
+}
+#innertv{
+    margin-top: 5%;   
+}
+.maincomp{
+    opacity: 0.6;
+    width: 480px;
+    z-index: 2;
+    margin-right: -106px;
+    margin-top: 75px;
+    margin-left: -372px;
+    position: fixed;
+    background-attachment: fixed;
+    
+}
+.gifs{
+    width: 226px;
+    opacity: 0.8;
+    background-attachment: fixed;
+    margin-right: 22px;
+}
+#neohack{
+    width: 11%;
+    opacity: 0.8;
+    background-attachment: fixed;
+    margin-right: 306px;
+    border-radius: 26px;
+}
+.components{
+    width: 800px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 248px;
+    margin-left: 0px;
+}
+#animations{
+    display: inline-block;
+    margin-left: 30px;
+}
+#cartoons{
+    display: inline-block;
+    vertical-align: top;
+    vertical-align: middle;
+    position: fixed;
+    margin-top: 165px;
+    z-index: 2;
+    margin-left: -335px; 
+}
+.tracking{
+    width: 369px;
+    height: 250px;
+    margin-top: 50%;
+    background-attachment: fixed;
+    opacity: 0.5;
+    z-index: 1;
+    display: inline-block;
+}
+#trackpic{
+    width: 395px;
+    height: 277px;
+    z-index: 1;
+    position: fixed;
+    border-radius: 82px;
+}
+.mra_gifs{
+    width: 295px;
+    background-attachment: fixed;
+    z-index: 2;
+    
+}
+#matrix{
+    background-image: url('assets/giphy.gif');
+    width: 117px;
+    height: 170px;
+    bottom: 249px;
+    left: 150px;
+    position: relative;
+    opacity: 0.6;
+}
+
+
+                /* mid to large */
+
+@media screen and (min-width:1025px) and (max-width:1510px) {
+    #wrapper{
+        /* background-image: url('assets/pbg1.jpg'); */
+        background-image: url('assets/bgpurp.jpg');
+        /* background-color: rgb(255, 255, 255); */
+        background-attachment: fixed;
+        height:100%;   
+        width: 100%;
+        margin-right:auto;
+    }
+    #navhead{
+        background-attachment: fixed;
+        width: 1510px;
+    }
+    #headerdiv{
+        display:block;
+        text-align:center;
+    }
+    #header{
+        text-align:center;
+        width: 405px;
+        margin-left: 1150px;
+    }
+    #homepic{
+        width: 207px; 
+    }
+    #hacked{
+        color: rgb(255, 255, 255);
+        opacity: 0.28;
+        margin-top: 7.5%;
+        position: absolute;
+        right: 228px;
+        display: none;
+    }
+    #neohack{
+        width: 11%;
+        opacity: 0.8;
+        background-attachment: fixed;
+        margin-right: 238px;
+        border-radius: 26px;
+        margin-left: 13px;
+    }
+    #contact{
+        right: 113px;
+        top: 57px;
+    }
+    .skills{
+        width: 68px;
+        margin-right: 11px;
+    }
+    .tv{
+        border: black 2px solid;
+        width: 271px;
+        height: 705px;
+        margin-left: 25px;
+        display: inline-block;
+        background-attachment: fixed;
+        background-image: url('assets/bgpurp.jpg');
+    }
+    #innertv{
+        margin-top: 5%;   
+    }
+    .maincomp{
+        opacity: 0.6;
+        width: 456px;
+        z-index: 2;
+        margin-right: -181px;
+        margin-top: 85px;
+        margin-left: -372px;
+        position: fixed;
+        background-attachment: fixed;
+    
+    }
+    .gifs{
+        width: 193px;
+        opacity: 0.8;
+        background-attachment: fixed;
+    }
+    #trackpic{
+        width: 390px;
+        height: 343px;
+        z-index: 1;
+        position: fixed;
+        border-radius: 82px;
+    }
+    .components{
+        width: 510px;
+        height: auto;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 248px;
+        margin-left: 76px;
+    }
+    #animations{
+        display: inline-block;
+    }
+    #cartoons{
+        display: inline-block;
+        vertical-align: top;
+        vertical-align: middle;
+        position: fixed;
+        margin-top: 165px;
+        z-index: 2;
+        margin-right: 10px;  
+    }
+    .tracking{
+        width: 369px;
+        height: 250px;
+        margin-top: 50%;
+        background-attachment: fixed;
+        opacity: 0.5;
+        z-index: 1;
+        display: inline-block;
+    }
+    #trackpic{
+        width: 333px;
+        height: 196px;
+        z-index: 1;
+        position: fixed;
+        opacity: 0.78;
+    }
+    .mra_gifs{
+        width: 295px;
+        background-attachment: fixed;
+        z-index: 2;
+        
+    }
+    #matrix{
+        background-image: url('assets/giphy.gif');
+        width: 117px;
+        height: 170px;
+        bottom: 252px;
+        left: 149px;
+        position: relative;
+        opacity: 0.6;
+    }
+}
+                /* ipad  pro */
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #wrapper{
+        /* background-image: url('assets/pbg1.jpg'); */
+        background-image: url('assets/bgpurp.jpg');
+        /* background-color: rgb(255, 255, 255); */
+        background-attachment: fixed;
+        height:100%;    
+        width: 1024px;
+        margin-right:auto;
+    }
+    #navhead{
+        background-attachment: fixed;
+        width: 1024px;
+    }
+    #headerdiv{
+        display:block;
+        text-align:center;
+    }
+    #header{
+        text-align:center;
+        width: 405px;
+        margin-left: 1150px;
+    }
+    #homeblock{
+        width: 203px;
+        height: 168px;
+        margin-right: 0px;
+        background-color: white;
+        border-radius: 100px;
+    }
+    #homepic{
+        margin-top: 10px;
+        width: 207px;   
+    }
+    #contact{
+        right: 814px;
+        top: 194px;
+    }
+    .skills{
+        width: 55px;
+        margin-right: 11px;
+    }
+    #hacked{
+        color: rgb(255, 255, 255);
+        opacity: 0.28;
+        margin-top: 7.5%;
+        position: absolute;
+        right: 130px;
+        display: none;
+    }
+    #neohack{
+        width: 11%;
+        opacity: 0.8;
+        background-attachment: fixed;
+        margin-right: 238px;
+        border-radius: 26px;
+        margin-left: 13px;
+        display: none;
+    }
+    .tv{
+        border: black 2px solid;
+        width: 271px;
+        height: 705px;
+        margin-left: 25px;
+        display: inline-block;
+        background-attachment: fixed;
+        background-image: url('assets/bgpurp.jpg');
+    }
+    #innertv{
+        margin-top: 5%;   
+    }
+    .maincomp{
+        opacity: 0.6;
+        width: 532px;
+        z-index: 2;
+        margin-right: -106px;
+        margin-top: 75px;
+        margin-left: -372px;
+        position: fixed;
+        background-attachment: fixed;
+        display: none;
+    }
+    .gifs{
+        width: 174px;
+        opacity: 0.8;
+        background-attachment: fixed;
+        
+    }
+    .components{
+        width: 440px;
+        height: auto;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 248px;
+        margin-left: 76px;
+    }
+    #animations{
+        display: inline-block;
+        margin-left: 421px;
+        display: none;
+    }
+    #cartoons{
+        display: inline-block;
+        vertical-align: top;
+        vertical-align: middle;
+        position: fixed;
+        margin-top: 165px;
+        z-index: 2;
+        margin-right: 10px;
+        display: none;
+        
+    }
+    .tracking{
+        width: 369px;
+        height: 250px;
+        margin-top: 0px;
+        background-attachment: fixed;
+        opacity: 0.5;
+        z-index: 1;
+        display: inline-block;
+    }
+    #trackpic{
+        width: 333px;
+        height: 196px;
+        z-index: 1;
+        position: absolute;
+        opacity: 0.78;
+        top: 502px;
+        right: 125px;
+        background-attachment: fixed;
+        display: none;
+    }
+    .mra_gifs{
+        width: 220px;
+        background-attachment: fixed;
+        z-index: 2;
+        left: 228px;
+        position: absolute;
+        bottom: 81px;
+        display: none;
+    }
+    #matrix{
+        background-image: url('assets/giphy.gif');
+        width: 87px;
+        height: 129px;
+        bottom: 141px;
+        left: 339px;
+        position: relative;
+        opacity: 0.6;
+        display: none;
+    }
+}
+
+@media screen and (min-width:416px) and (max-width:768px) {
+    #wrapper{
+        /* background-image: url('assets/pbg1.jpg'); */
+        background-image: url('assets/bgpurp.jpg');
+        /* background-color: rgb(255, 255, 255); */
+        background-attachment: fixed;
+        height:100%;    
+        width: 768px;
+        margin-right:auto;
+    }
+    #navhead{
+        background-attachment: fixed;
+        width: 768px;
+    }
+    #headerdiv{
+        display:block;
+        text-align:center;
+    }
+    #header{
+        text-align:center;
+        width: 405px;
+        margin-left: 1150px;
+    }
+    #homeblock{
+        width: 169px;
+        height: 131px;
+        margin-right: 0px;
+        background-color: white;
+        border-radius: 100px;
+    }
+    #homepic{
+        margin-top: 10px;
+        width: 165px;   
+    }
+    #contact{
+        right: 41px;
+        top: 194px;
+    }
+    .skills{
+        width: 55px;
+        margin-right: 11px;
+    }
+    #contact{
+        right: 564px;
+        top: 159px;
+    }
+    .skills{
+        width: 55px;
+        margin-right: 11px;
+    }
+    #hacked{
+        color: rgb(255, 255, 255);
+        opacity: 0.28;
+        /* margin-top: 23.5%; */
+        position: absolute;
+        right: 111px;
+        bottom: -6px;
+    }
+    #neohack{
+        width: 11%;
+        opacity: 0.8;
+        background-attachment: fixed;
+        margin-right: 238px;
+        border-radius: 26px;
+        margin-left: 13px;
+        display: none;
+    }
+    .tv{
+        border: black 2px solid;
+        width: 271px;
+        height: 705px;
+        margin-left: 25px;
+        display: inline-block;
+        background-attachment: fixed;
+        background-image: url('assets/bgpurp.jpg');
+    }
+    #innertv{
+        margin-top: 5%;   
+    }
+    .maincomp{
+        opacity: 0.6;
+        width: 532px;
+        z-index: 2;
+        margin-right: -106px;
+        margin-top: 75px;
+        margin-left: -372px;
+        position: fixed;
+        background-attachment: fixed;
+        display: none;
+    }
+    .gifs{
+        width: 119px;
+        opacity: 0.8;
+        background-attachment: fixed;
+        
+    }
+    .components{
+        width: 375px;
+        height: auto;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 248px;
+        margin-left: 76px;
+    }
+    #animations{
+        display: inline-block;
+        margin-left: 421px;
+    }
+    #cartoons{
+        display: inline-block;
+        vertical-align: top;
+        vertical-align: middle;
+        position: fixed;
+        margin-top: 165px;
+        z-index: 2;
+        margin-right: 10px;
+        
+    }
+    .tracking{
+        width: 369px;
+        height: 250px;
+        margin-top: 0px;
+        background-attachment: fixed;
+        opacity: 0.5;
+        z-index: 1;
+        display: inline-block;
+    }
+    #trackpic{
+        width: 333px;
+        height: 196px;
+        z-index: 1;
+        position: absolute;
+        opacity: 0.78;
+        top: 502px;
+        right: 125px;
+        background-attachment: fixed;
+        display: none;
+    }
+    .mra_gifs{
+        width: 220px;
+        background-attachment: fixed;
+        z-index: 2;
+        left: 0px;
+        position: absolute;
+        bottom: 0px;
+        display: none;
+    }
+    #matrix{
+        background-image: url('assets/giphy.gif');
+        width: 93px;
+        height: 126px;
+        bottom: 61px;
+        left: 108px;
+        position: relative;
+        opacity: 0.6;
+        display: none;
+    }
+}
+
+                /* small mobile */
+
+@media screen and (max-width:415px) {
+    #wrapper{
+        background-image: url('assets/bgpurp.jpg');
+        background-attachment: fixed;   
+        margin-right:auto;
+        height:100%; 
+        width: 415px;
+        overflow-x: hidden;
+    }
+    #navhead{
+        background-attachment: fixed;
+        width: 415px;
+        
+    }
+    #headerdiv{
+        display:block;
+        text-align:center;
+    }
+    #header{
+        text-align:center;
+        width: 405px;
+        margin-left: 1150px;
+    }
+    #homeblock{
+        width: 169px;
+        height: 131px;
+        margin-right: 150px;
+        background-color: white;
+        border-radius: 100px;
+        margin-left: 104px;
+        margin-bottom: 11px;
+    }
+    #homepic{
+        margin-top: 10px;
+        width: 165px;   
+    }
+    .skills{
+        width: 55px;
+        margin-right: 11px;
+    }
+    #contact{
+        right: 177px;
+        top: 150px;
+    }
+    .skills{
+        width: 49px;
+        /* margin-right: 11px; */
+        display: block;
+        margin-bottom: 7px;
+    }
+    #hacked{
+        color: rgb(255, 255, 255);
+        opacity: 0.88;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 10%;
+        margin-top: 0%;
+        position: absolute;
+        right: 46px;
+        bottom: -8px;
+        font-size: 17px;
+    }
+    #neohack{
+        width: 11%;
+        opacity: 0.8;
+        background-attachment: fixed;
+        margin-right: 277px;
+        border-radius: 26px;
+        display: none;
+    }
+    .tv{
+        border: black 2px solid;
+        width: 271px;
+        height: 705px;
+        margin-left: 25px;
+        display: inline-block;
+        background-attachment: fixed;
+        background-image: url('assets/bgpurp.jpg'); 
+    }
+    #innertv{
+        margin-top: 5%;   
+    }
+    .maincomp{
+        opacity: 0.6;
+        width: 532px;
+        z-index: 2;
+        margin-right: -106px;
+        margin-top: 75px;
+        margin-left: -372px;
+        position: fixed;
+        background-attachment: fixed;
+        display: none;
+    }
+    .gifs{
+        width: 106px;
+        margin-bottom: 14px;
+        opacity: 0.8;
+    }
+    .components{
+        width: 378px;
+        height: auto;
+        
+        vertical-align: top;
+        margin-top: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #animations{
+        display: inline-block;
+        
+    }
+    #cartoons{
+        display: inline-block;
+        vertical-align: middle;
+       
+    }
+    .tracking{
+        width: 0px;
+        height: 142px;
+        background-attachment: scroll;
+        opacity: 0.5;
+        z-index: 1;
+        margin-left: -27px;
+    }
+    #trackpic{
+        width:368px;
+        height: 249px;
+        z-index: 1;
+        position: absolute;
+        opacity: 0.7;
+        display: none;
+    }
+    .mra_gifs{
+        width: 161px;
+        /* position: absolute; */
+        z-index: 2;
+        margin-left: 182px;
+        margin-top: 206px;
+        display: none;
+        
+    }
+    #matrix{
+        background-image: url('assets/giphy.gif');
+        width: 284px;
+        height: 144px;
+        top: 67px;
+        left: 344px;
+        position: absolute;
+        display:none;
+    }
+}

@@ -1,0 +1,441 @@
+.wrapper{
+    width:100%;
+    /* height: auto; */
+    /* background-image: url('./../assets/techgif.gif'); */
+    background-size: inherit;
+    overflow: inherit;
+}
+a{
+    color: white;
+}
+.small{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+#inner{
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url('./../assets/techgif.gif');
+    overflow: inherit;
+    width: 897px;
+    margin-left: 148px;
+    border: 1px white solid;
+}
+button{
+    display: inline-block;
+    margin-right: 40px;
+    margin-left:  50px;
+    margin-top: 10px;
+    opacity: .8;
+    border-radius: 30px;
+    border:black 1px solid;
+}
+.pro_pic{
+    width:80%;
+    border: black 1px solid;
+}
+.sbpic{
+    width:26.5%;
+    display: inline-block;
+    margin: 3px;
+    border: black 1px solid;
+}
+.sbttn{
+    width: 42.5%;
+    display: inline-block;
+}
+.sbpic1{
+    width:26.5%;
+    display: inline-block;
+    margin: 3px;
+
+}
+.github{
+    width:14%;
+    display: inline-block;
+    margin-right: 37px;
+    margin-left: 47px;
+}
+.lives{
+    width: 23%;
+    display: inline-block;
+}
+.lives1{
+    width: 23%;
+    display: inline-block;
+    margin-right: 44px;
+    margin-left: 47px;
+    padding-bottom: 50px;
+    padding-top: 29px;
+}
+.github{
+    width:14%;
+    display: inline-block;
+}
+h6{
+    margin-top:15px;
+    color: white;
+}
+h4{
+    margin-top: 20px;
+    color: white;
+}
+h5{
+    margin-top: 1   5px;
+    color:white;
+    font-size: 24px;
+}
+.separate{
+    margin-top: 60px;
+    border: rgb(255, 255, 255) 0.5px solid;
+    width: 81%;
+    text-align: center;
+    margin-left: 82px;
+    margin-bottom: 60px;
+}
+.links{
+    width: 76%;
+    text-align: center;
+    margin-left: 82px;
+}
+iframe{
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media screen and (min-width:1025px) and (max-width:1510px) {
+    .wrapper{
+        /* background-image: url('./../assets/giphy.gif'); */
+        width:100%;
+        /* height: auto; */
+        background-size: inherit;
+        overflow: inherit;
+        
+    }
+    a{
+        color: white;
+    }
+    #inner{
+        background-repeat: repeat;
+        background-size: contain;
+        background-image: url('./../assets/techgif.gif');
+        overflow: inherit;
+        width: 851px;
+        margin-left: -60px;
+    }
+    button{
+        display: inline-block;
+        margin-right: 10px;
+        margin-left:  30px;
+        margin-top: 10px;
+        opacity: .8;
+        border-radius: 30px;
+        border:black 1px solid;
+    }
+    .pro_pic{
+        width:80%;
+        border: black 1px solid;
+    }
+    .sbpic{
+        width:26.5%;
+        display: inline-block;
+        margin: 3px;
+        border: black 1px solid;
+    }
+    .sbttn{
+        width: 42.5%;
+        display: inline-block;
+    }
+    .sbpic1{
+        width:26.5%;
+        display: inline-block;
+        margin: 3px;
+    
+    }
+    .github{
+        width:14%;
+        display: inline-block;
+        margin-right: 37px;
+        margin-left: 47px;
+        /* display: none; */
+    }
+    .lives{
+        width: 23%;
+        display: inline-block;
+        /* display: none; */
+    }
+    .lives1{
+        width: 23%;
+        display: inline-block;
+        margin-right: 44px;
+        margin-left: 47px;
+        padding-bottom: 50px;
+        padding-top: 29px;
+    }
+    h6{
+        margin-top:15px;
+        color: white;
+    }
+    h4{
+        margin-top: 20px;
+        color: white;
+    }
+    h5{
+        color:white;
+        margin-top: 1   5px;
+    }
+    .separate{
+        margin-top: 25px;
+        border: rgb(255, 255, 255) 1px solid;
+        width: 97%;
+        text-align: center;
+        margin-left: 5px;
+        margin-bottom: 60px;
+    }
+    .links{
+        width: 76%;
+        text-align: center;
+        margin-left: 82px;
+    }
+    iframe{
+        vertical-align: middle;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+            /* ipad pro */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .wrapper{
+        /* background-image: url('./../assets/giphy.gif'); */
+        width:100%;
+        /* height: auto; */
+        background-size: inherit;
+        overflow: inherit;
+        
+    }
+    a{
+        color: white;
+    }
+    #inner{
+        background-repeat: repeat;
+        background-size: contain;
+        background-image: url('./../assets/techgif.gif');
+        overflow: inherit;
+        width: 758px;
+        margin-left: -21px;
+    }
+    iframe{
+        display: none;
+    }
+    button{
+        display: inline-block;
+        margin-right: 10px;
+        margin-left:  30px;
+        margin-top: 10px;
+        opacity: .8;
+        border-radius: 30px;
+        border:black 1px solid;
+    }
+    .pro_pic{
+        width:80%;
+        border: black 1px solid;
+    }
+    .sbpic{
+        width:26.5%;
+        display: inline-block;
+        margin: 3px;
+        border: black 1px solid;
+    }
+    .sbttn{
+        width: 42.5%;
+        display: inline-block;
+    }
+    .sbpic1{
+        width:26.5%;
+        display: inline-block;
+        margin: 3px;
+    
+    }
+    .github{
+        width:14%;
+        display: inline-block;
+        margin-right: 37px;
+        margin-left: 47px;
+        display: none;
+    }
+    .lives{
+        width: 23%;
+        display: inline-block;
+        display: none;
+    }
+    .lives1{
+        width: 23%;
+        display: inline-block;
+        margin-right: 44px;
+        margin-left: 47px;
+        padding-bottom: 50px;
+        padding-top: 29px;
+    }
+    h6{
+        margin-top:15px;
+        color: white;
+    }
+    h4{
+        margin-top: 20px;
+        color: white;
+    }
+    h5{
+        color:white;
+        margin-top: 1   5px;
+    }
+    .separate{
+        margin-top: 25px;
+        border: rgb(255, 255, 255) 1px solid;
+        width: 97%;
+        text-align: center;
+        margin-left: 5px;
+        margin-bottom: 60px;
+    }
+    .links{
+        width: 76%;
+        text-align: center;
+        margin-left: 82px;
+    }
+    iframe{
+        vertical-align: middle;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .hide{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:416px) and (max-width:768px) {
+    .github{
+        width:14%;
+        display: none;
+        margin-right: 37px;
+        margin-left: 47px;
+    }
+    iframe{
+        display: none;
+    }
+    .lives{
+        width: 23%;
+        display: none;
+    }
+    .links{
+        text-align: center;
+        margin-left: 96px;
+    }
+    .separate{
+        margin-top: 25px;
+        border: rgb(255, 255, 255) 1px solid;
+        width: 97%;
+        text-align: center;
+        margin-left: 5px;
+        margin-bottom: 60px;
+    }
+    #inner{
+        background-repeat: repeat;
+        background-size: contain;
+        background-image: url('./../assets/techgif.gif');
+        overflow: inherit;
+        width: 804px;
+        margin-left: -126px;
+    }
+    .hide{
+        display: none;
+    }
+    h5{
+        color:white;
+        margin-top: 1   5px;
+    }
+}
+
+            /* Iphone */
+@media screen and (max-width:415px) {
+    .wrapper{
+        /* background-image: url('./../assets/giphy.gif'); */
+        width:100%;
+        height: 2137px;
+        background-size: inherit;
+        
+    }
+    iframe{
+        display: none;
+    }
+    #inner{
+        background-repeat: repeat;
+        background-size: contain;
+        background-image: url('./../assets/techgif.gif');
+        overflow: inherit;
+        width: 400px;
+        margin-left: 0px;
+    }
+    .sbpic1{
+        width:26.5%;
+        display: none;
+        margin: 3px;
+    
+    }
+    .github{
+        width:14%;
+        display: none;
+        margin-right: 37px;
+        margin-left: 47px;
+    }
+    .lives{
+        width: 23%;
+        display: none;
+    }
+    .lives1{
+        width: 23%;
+        display: none;
+        margin-right: 44px;
+        margin-left: 47px;
+        padding-bottom: 50px;
+        padding-top: 29px;
+    }
+    .github{
+        width:14%;
+        display: none;
+    }
+    
+    .links{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .separate{
+        margin-top: 25px;
+        border: rgb(255, 255, 255) 1px solid;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 60px;
+    }
+    h5{
+        color:white;
+        font-size: 11px;
+        margin-top: 1   5px;
+    }
+    button{
+        display: inline-block;
+        margin-right: 15px;
+        margin-left: 1px;
+        margin-top: 10px;
+        opacity: .8;
+        border-radius: 30px;
+        border: black 1px solid;  
+    }
+    .hide{
+        display: none;
+    }
+}
